@@ -18,3 +18,7 @@ alias fgrep='fgrep --color=auto'
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 
+alias cls='clear'
+
+
+alias reflector='sudo reflector --latest 7 --protocol http,https --sort rate --save /etc/pacman.d/mirrorlist '
