@@ -1,0 +1,128 @@
+[2023-03-12T15:37:59.394Z] info: docker.yaml was copied to the config folder
+[2023-03-12T15:37:59.395Z] info: services.yaml was copied to the config folder
+[2023-03-12T15:37:59.396Z] info: bookmarks.yaml was copied to the config folder
+[2023-03-12T15:37:59.401Z] error: undefined
+[2023-03-12T15:37:59.405Z] info: widgets.yaml was copied to the config folder
+[2023-03-12T15:37:59.421Z] info: kubernetes.yaml was copied to the config folder
+[2023-03-12T15:37:59.422Z] info: kubernetes.yaml was copied to the config folder
+[2023-03-12T15:44:45.598Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:44:45.599Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 | 
+ 5 | - Jellyfin:
+ 6 |     - widget:
+ 7 |     type: jellyfin
+---------^
+ 8 |     url: http://10.0.0.9:8097
+ 9 |     key: d72d56b146e245fba6bc0392815 ...
+[2023-03-12T15:44:45.658Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:44:45.659Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 | 
+ 5 | - Jellyfin:
+ 6 |     - widget:
+ 7 |     type: jellyfin
+---------^
+ 8 |     url: http://10.0.0.9:8097
+ 9 |     key: d72d56b146e245fba6bc0392815 ...
+[2023-03-12T15:44:45.898Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:44:45.898Z] error: YAMLException: bad indentation of a mapping entry (7:5)
+
+ 4 | 
+ 5 | - Jellyfin:
+ 6 |     - widget:
+ 7 |     type: jellyfin
+---------^
+ 8 |     url: http://10.0.0.9:8097
+ 9 |     key: d72d56b146e245fba6bc0392815 ...
+[2023-03-12T15:49:55.296Z] error: bad indentation of a mapping entry (9:9)
+
+  6 |     - Jellyfin:
+  7 |          icon: jellyfin.svg
+  8 |          description:
+  9 |         widget:
+--------------^
+ 10 |             type: jellyfin
+ 11 |             url: http://10.0.0.9:8097
+[2023-03-12T15:49:55.301Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:49:55.301Z] error: YAMLException: bad indentation of a mapping entry (9:9)
+
+  6 |     - Jellyfin:
+  7 |          icon: jellyfin.svg
+  8 |          description:
+  9 |         widget:
+--------------^
+ 10 |             type: jellyfin
+ 11 |             url: http://10.0.0.9:8097
+[2023-03-12T15:49:55.326Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:49:55.326Z] error: YAMLException: bad indentation of a mapping entry (9:9)
+
+  6 |     - Jellyfin:
+  7 |          icon: jellyfin.svg
+  8 |          description:
+  9 |         widget:
+--------------^
+ 10 |             type: jellyfin
+ 11 |             url: http://10.0.0.9:8097
+[2023-03-12T15:49:55.580Z] error: Failed to load services.yaml, please check for errors
+[2023-03-12T15:49:55.580Z] error: YAMLException: bad indentation of a mapping entry (9:9)
+
+  6 |     - Jellyfin:
+  7 |          icon: jellyfin.svg
+  8 |          description:
+  9 |         widget:
+--------------^
+ 10 |             type: jellyfin
+ 11 |             url: http://10.0.0.9:8097
+[2023-03-12T16:00:05.379Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://10.0.0.9:9002/api/endpoints/1/docker/containers/json?all=1
+[2023-03-12T16:00:05.688Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://10.0.0.9:9002/api/endpoints/1/docker/containers/json?all=1
+[2023-03-12T16:01:13.549Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://10.0.0.9:9002/api/endpoints/1/docker/containers/json?all=1
+[2023-03-12T16:01:44.043Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://10.0.0.9:9002/api/endpoints/1/docker/containers/json?all=1
+[2023-03-12T16:01:53.214Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://10.0.0.9:9002/api/endpoints/1/docker/containers/json?all=1
+[2023-03-12T16:01:56.874Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://10.0.0.9:9002/api/endpoints//docker/containers/json?all=1
+[2023-03-12T16:02:08.791Z] error: <credentialedProxyHandler> HTTP Error 404 calling http://10.0.0.9:9002/api/endpoints//docker/containers/json?all=1
+[2023-03-13T05:06:41.323Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:06:51.818Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:06:53.402Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:06:54.011Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:07:03.804Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:07:04.186Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:07:14.581Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:07:21.809Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:07:27.192Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:08:03.127Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:08:14.482Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:08:27.290Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:08:33.247Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:08:39.200Z] error: undefined
+[2023-03-13T05:08:39.217Z] info: services.yaml was copied to the config folder
+[2023-03-13T05:08:42.349Z] info: services.yaml was copied to the config folder
+[2023-03-13T05:09:07.231Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:12.393Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:18.898Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:24.001Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:27.058Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:32.544Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:37.287Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:49.109Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:09:52.454Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:02.659Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:28.913Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:29.236Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:33.976Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:39.911Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:44.021Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:45.027Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:47.716Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:52.715Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:10:59.268Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:11:10.322Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:11:18.309Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:11:29.380Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:12:01.885Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:12:07.846Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:12:09.383Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:12:20.031Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:14:28.230Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:14:38.414Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 
+[2023-03-13T05:14:48.560Z] error: <qbittorrentProxyHandler> HTTP 404 getting data from qBittorrent.  Data: 

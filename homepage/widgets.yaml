@@ -1,0 +1,22 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- openweathermap:
+    label: TVM #optional
+    latitude: 8.5241
+    longitude: 76.9366
+    units: metric # or imperial
+    provider: openweathermap
+    apiKey: 5fcabd6f630c1a39bb9bce5de70b3030 # required only if not using provider, this reveals api key in requests
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+
